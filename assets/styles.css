@@ -1,0 +1,56 @@
+table,
+td {
+  text-align: center;
+}
+
+input[type="button"] {
+  width: 220px;
+  height: 150px;
+  font-size: 60px;
+  cursor: pointer;
+}
+
+table{
+    padding-top: 5vh;
+    margin: auto;
+}
+
+input{
+    border: none !important;
+}
+
+td{
+    padding: 1rem;
+}
+
+.button{
+    cursor: pointer;
+}
+
+.placar{
+    display: grid;
+    position: absolute;
+    top: 0;
+    right: 8rem;
+    background-color: rgb(164, 194, 244);
+    box-shadow: 10px 10px 46px -18px rgba(0,0,0,0.11);
+    border-radius: 5px;
+    margin-top: 6rem;
+    text-transform: uppercase;
+    width: 150px;
+
+}
+
+.placar h4, .button{
+    font-size: 1rem !important;
+    margin: .5rem !important;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+}
